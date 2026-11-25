@@ -1,0 +1,22 @@
+# Змінні оточення та секрети
+.env
+
+# Локальне сховище даних і чекпоінти стрімінгу
+datalake/
+checkpoints/
+
+# Логи Airflow та тимчасові файли Spark
+logs/
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Системні файли ОС та IDE
+.DS_Store
+.vscode/
+.idea/
